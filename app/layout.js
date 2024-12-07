@@ -13,6 +13,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en" data-theme="light" className="scroll-smooth">
+			<head>
+				<script
+					defer
+					data-website-id="6753d1f7fe1f291c616ab92b"
+					data-domain="codefastsaas.com"
+					src="https://datafa.st/js/script.js"
+				></script>
+			</head>
 			<body className={inter.className}>
 				<div>
 					<Toaster />
