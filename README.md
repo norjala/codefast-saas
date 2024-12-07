@@ -33,7 +33,7 @@ npm run dev
 -   MongoDB & Mongoose
 -   NextAuth.js
 -   Stripe
--   TailwindCSS & DaisyUI
+-   TailwindCSS & daisyUI
 
 ## 📝 Features
 
