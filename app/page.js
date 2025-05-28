@@ -4,6 +4,10 @@ import Image from "next/image";
 import productDemo from "./productDemo.jpeg";
 import { auth } from "@/auth";
 
+export const metadata = {
+	title: "Collect customer feedback to build better products | CodeFastSaaS",
+};
+
 export default async function Home() {
 	const session = await auth();
 
